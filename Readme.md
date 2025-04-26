@@ -2,19 +2,13 @@
 
 A lightweight, extensible logging library for Go built on `slog`. Supports multi-output logging (console + file), colored terminal output via `tint`, and dynamic log level control.
 
+[![Go Reference](https://pkg.go.dev/badge/github.com/VolkHackVH/go-logger.svg)](https://pkg.go.dev/github.com/VolkHackVH/go-logger)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](License)
+
 ## 📍 Installation
 
 ```text
-get package github.com/VolkHackVH/go-logger
-```
-
-## ❓How to use?
-
-```go
-func main() {
-    logger.NewLogger(true, "./Logger/Logger.log")
-    ...
-}
+go get github.com/VolkHackVH/go-logger
 ```
 
 ## 🌟 Features
